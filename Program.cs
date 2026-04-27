@@ -6,11 +6,15 @@ static class Program
 {
     static void Main()
     {
-        double a = 3;
-        double b = 13;
+        Console.Write("Введите точность epsilon: ");
+	double eps = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Введите левую границу a: ");
+	double a = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Введите правую границу b: ");
+	double b = Convert.ToDouble(Console.ReadLine());
 
-        MyMath.SolveIntegral(a, b, 1, MyMath.Method.RightRectangles);      
-        MyMath.SolveIntegral(a, b, 1, MyMath.Method.Trapezia);      
-        MyMath.SolveIntegral(a, b, 1, MyMath.Method.Simpson);      
+        MyMath.SolveIntegral(a, b, eps, MyMath.Method.RightRectangles);      
+        MyMath.SolveIntegral(a, b, eps, MyMath.Method.Trapezia);      
+        MyMath.SolveIntegral(a, b, eps, MyMath.Method.Simpson);      
     }
 }
