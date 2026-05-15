@@ -6,8 +6,9 @@ namespace laba5;
 
 static class MyMath
 {
-    public static double f(double x) => (2.5 * x * x - 0.1) / (Math.Log(x) + 1.0);
 
+    public static double f(double x) => (2.5 * x * x - 0.1) / (Math.Log(x) + 1.0);
+    
     public static double GetErrorByRunge(double accuracyOrder, double value1, double value2, double stepPower = 2.0)
     {  
         return Math.Abs(value1 - value2) / (Math.Pow(stepPower, accuracyOrder) - 1.0);
@@ -53,6 +54,22 @@ static class MyMath
     static double SimpsonMethod(double a, double b, int stepCount)
     {
         double stepSize = (b - a) / stepCount;
+        double sumOdd = 0;  
+        double sumEven = 0; 
+
+        for (int i = 1; i < stepCount; i++)
+        {
+            if (i % 2 != 0) sumOdd += f(a + i * stepSize);
+            else sumEven += f(a + i * stepSize);
+        }
+
+        double result = f(a) + f(b) + 4 * sumOdd + 2 * sumEven;
+        return result * (stepSize / 3);
+    }
+    /*
+    static double SimpsonMethod(double a, double b, int stepCount)
+    {
+        double stepSize = (b - a) / stepCount;
 
         double result = 0;
 
@@ -73,7 +90,7 @@ static class MyMath
         }
         // 2.
         result *= 2;
-        
+
         // 3.
         for (int i = 2; i < stepCount; i += 2)
         {
@@ -91,8 +108,7 @@ static class MyMath
 
         return result;
     }
-
-
+*/
 
     public static double SolveIntegral(double a, double b, double eps, Method methodType)
     {    
@@ -137,9 +153,11 @@ static class MyMath
         double prevRes = 0;
         while (error >= eps)
         {
-            if (stepCount > int.MaxValue / 2)
+            if (stepCount > int.MaxValue / 32)
             {
                 Console.Write($"Error: accuracy too high or bad range. Returned result of {iteration - 1} iteration\n");
+                Console.WriteLine("Введите Enter чтобы продолжить");
+                Console.ReadLine();
                 return prevRes;
             }
 
