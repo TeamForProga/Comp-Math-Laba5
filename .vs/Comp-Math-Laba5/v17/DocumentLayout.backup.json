@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\Comp-Math-Laba5\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u0439\u0434\u0430\u0448\\source\\repos\\TeamForProga\\Comp-Math-Laba5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E49410FE-91B3-4A3B-91DE-1860C61528A4}|Comp-Math-Laba5.csproj|c:\\users\\1\\source\\repos\\comp-math-laba5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49410FE-91B3-4A3B-91DE-1860C61528A4}|Comp-Math-Laba5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E49410FE-91B3-4A3B-91DE-1860C61528A4}|Comp-Math-Laba5.csproj|c:\\users\\1\\source\\repos\\comp-math-laba5\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49410FE-91B3-4A3B-91DE-1860C61528A4}|Comp-Math-Laba5.csproj|solutionrelative:mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0439\u0434\u0430\u0448\\source\\repos\\TeamForProga\\Comp-Math-Laba5\\MyMath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyMath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,48 +14,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyMath.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Comp-Math-Laba5\\MyMath.cs",
-              "RelativeDocumentMoniker": "MyMath.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\Comp-Math-Laba5\\MyMath.cs",
-              "RelativeToolTip": "MyMath.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAI0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T15:49:28.885Z",
-              "EditorCaption": ""
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Comp-Math-Laba5\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\Comp-Math-Laba5\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
+              "Title": "MyMath.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0439\u0434\u0430\u0448\\source\\repos\\TeamForProga\\Comp-Math-Laba5\\MyMath.cs",
+              "RelativeDocumentMoniker": "MyMath.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0439\u0434\u0430\u0448\\source\\repos\\TeamForProga\\Comp-Math-Laba5\\MyMath.cs",
+              "RelativeToolTip": "MyMath.cs",
+              "ViewState": "AgIAAAEAAAAAMTMzM7MSwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T15:49:27.364Z",
+              "WhenOpened": "2026-05-08T07:18:23.138Z",
               "EditorCaption": ""
             }
           ]
